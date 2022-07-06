@@ -3,9 +3,9 @@
         <span class="fs-4">Paste</span>
       </a>
 
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+      <nav class="d-inline-flex mt-1 mt-md-0 ms-md-auto">
         <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('home') }}">Главная страница</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('account') }}">Аккаунт</a>
+        <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('user.private') }}">Аккаунт</a>
         <a class="me-3 py-2 text-dark text-decoration-none" href="{{ route('paste') }}">Паста</a>
         <a class="me-3 py-2 text-dark text-decoration-none" href="">Хранилище</a>
 
